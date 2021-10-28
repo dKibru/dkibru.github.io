@@ -1,0 +1,34 @@
+baseURL = 'https://dkibru.github.io'
+languageCode = 'en-us'
+title = 'Kibru Demeke - fullstack developer'
+theme = "notrack"
+mainSections = []
+paginate = 4
+
+
+[params]
+  author = "Kibru Demeke"
+  siteHeading = "Kibru Demeke" # defaults to author
+  showBlogLatest = true
+  mainSections = ["blog"]
+  showTaxonomyLinks = false
+  nBlogLatest = 4 # number of blog post om the home page
+  blogLatestHeading = "My writing"
+
+  [params.social]
+    github = "dkibru"
+    linkedin = "kibrudemeke"
+    email = "kibdemta@gmail.com"
+    medium = "dkibru"
+    
+[taxonomies]
+  year = "year"
+  month = "month"
+  tags = "tags"
+  categories = "categories"
+
+[permalinks]
+  blog = "/blog/:year/:month/:slug"  
+
+
+  
