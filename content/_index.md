@@ -7,7 +7,7 @@ draft: true
 ## Hi 👋🏿, I'm Kibru Demeke
 
 {{< image frame="true" width="11em" src="https://avatars.githubusercontent.com/u/32495495?v=4" 
-alt="Picture of me" >}}
+alt="Picture of Kibru" >}}
 
 full stack developer
 
