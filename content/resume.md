@@ -14,7 +14,7 @@ menu:
     {{< resume-section title="About Me" >}}
         {{< resume-entry >}}
             <p>
-            Some info about you. Pellentesque in ipsum id orci porta dapibus. Cras ultricies ligula sed magna dictum porta. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Sed porttitor lectus nibh.
+            I am a  full Stack developer obsessed about developing SAAS products. 
             </p>
         {{< /resume-entry >}}
 
@@ -24,12 +24,12 @@ menu:
     
 
     {{< resume-section title="Education" >}}
-        {{< resume-entry what="Bachelor's program of Computer Science"
-                         where="Sidney University"
+        {{< resume-entry what="Bachelor's program of Computer Science and Engineering"
+                         where="Adama Science and Technology University"
                          when="2010–2013">}}
             <ol>
-                <li> Some comment on what skills you learned</li>
-                <li> Some other comment </li>
+                <!-- <li> Some comment on what skills you learned</li> -->
+                <!-- <li> Some other comment </li> -->
             </ol>
         {{< /resume-entry >}}
     {{< /resume-section >}}
