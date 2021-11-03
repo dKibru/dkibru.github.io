@@ -4,7 +4,6 @@ title = 'Kibru Demeke - fullstack developer'
 theme = "notrack"
 mainSections = []
 paginate = 4
-publishDir = "docs"
 
 [params]
   author = "Kibru Demeke"
