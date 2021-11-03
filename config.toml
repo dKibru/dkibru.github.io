@@ -1,4 +1,4 @@
-baseURL = 'https://dkibru.github.io'
+baseURL = 'https://dkibru.github.io/'
 languageCode = 'en-us'
 title = 'Kibru Demeke - fullstack developer'
 theme = "notrack"
