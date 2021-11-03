@@ -1,7 +1,7 @@
 ---
 title: "Resume"
 date: 2021-10-28T09:41:33+03:00
-draft: true
+draft: false
 menu:
   main:
     identifier: "resume"
