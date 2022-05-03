@@ -3,7 +3,7 @@ title: 'Post 2'
 date: 2021-10-28T09:55:39+03:00
 Tags: []
 Categories: []
-draft: false 
+draft: true 
 ---
 
 
