@@ -1,0 +1,101 @@
+---
+import ResumeDetail from "../components/ResumeDetail.astro";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Resume : Kibru Demeke">
+    <div class="grid grid-cols-5">
+        <div class="col-span-4">
+            <h2 class="my-2 text-lg font-bold">Profile</h2>
+            <p>
+                I am a full Stack developer passionate about developing SAAS
+                products.
+            </p>
+            <p>I am interested in cloud computing and web.</p>
+
+            <h2 class="my-2 text-lg font-bold">Experience</h2>
+            <div class="mt-3">
+                <h3 class="text-md font-semibold my-2">
+                    1888EC startup studio
+                </h3>
+                <section class="mb-6">
+                    <div
+                        class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2"
+                    >
+                        December 2021 - Present
+                    </div>
+                    <div class="lg:inline-block lg:w-8/12 w-full">
+                        Fullstack Developer
+                    </div>
+                </section>
+                <ResumeDetail
+                    title="Task:"
+                    body="Developing and maintaining multiple codebases using nest.js, react.js, aws lambda, and Wordpress plugins."
+                />
+                <ResumeDetail
+                    title="Tools"
+                    items={["React.js", "Tailwind", "aws"]}
+                />
+                <h3 class="text-md font-semibold my-2">
+                    Information Network Security Agency
+                </h3>
+                <section class="mb-6">
+                    <div
+                        class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2"
+                    >
+                        August 2021 - December 2021
+                    </div>
+                    <div class="lg:inline-block lg:w-8/12 w-full">
+                        Exploit Researcher
+                    </div>
+                </section>
+                <ResumeDetail
+                    title="Task:"
+                    body="-"
+                />
+
+                <h3 class="text-md font-semibold my-2">
+                    Mala Tech Solutions
+                </h3>
+                <section class="mb-6">
+                    <div
+                        class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2"
+                    >
+                        April 2018 - December 2021
+                    </div>
+                    <div class="lg:inline-block lg:w-8/12 w-full">
+                        Lead developer
+                    </div>
+                </section>
+                <ResumeDetail
+                    title="Task:"
+                    body={`Cofounded Hawassa based startup Served as chief developer Developed a multitenant custom ERP software for churches using laravel, vue.js,
+                        and inertia js https://church.et`}
+                />
+
+
+                <h3 class="text-md font-semibold my-2">
+                    Adama Science and Technology University
+                </h3>
+                <section class="mb-6">
+                    <div
+                        class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2"
+                    >
+                    February 2017 - March 2018
+                    </div>
+                    <div class="lg:inline-block lg:w-8/12 w-full">
+                        Volunteer Full stack developer
+                    </div>
+                </section>
+                <ResumeDetail
+                    title="Task:"
+                    body={`Developed a staff evaluation system using laravel and vue.js`}
+                />
+            </div>
+        </div>
+        <div class="bg-blue-300">
+            <img src="/me.jpeg" />
+            <h2>Kibru Demeke</h2>
+        </div>
+    </div>
+</Layout>

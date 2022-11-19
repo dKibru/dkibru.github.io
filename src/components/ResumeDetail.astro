@@ -1,0 +1,22 @@
+---
+export interface Props {
+	title: string;
+	body?: any;
+	items?: string[];
+}
+
+const { items, title, body } = Astro.props;
+---
+
+<section class="mb-6">
+	<div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+		{title}
+	</div>
+	
+	<div class="lg:inline-block lg:w-8/12 w-full">
+		{body}
+		{
+			items?.map(item => <span class="rounded-xl bg-gray-300 px-3">{item}</span>)
+		}
+	</div>
+</section>
