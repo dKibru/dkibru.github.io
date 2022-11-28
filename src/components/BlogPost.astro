@@ -18,7 +18,25 @@ const {
 ---
 
 <Layout title={title}>
-<div>
+	<style global>
+		#post p {
+				padding-bottom: 10px;
+				text-align: justify;
+		}
+		#post p img {
+				width: 100%;
+		} 
+		#post h2 {
+				font-size: 1.5rem;
+				line-height: 2rem;
+				font-weight: 700;
+				padding-bottom: .75rem;
+		}
+
+		</style>
+
+<div id="post">
 	<h1>dede</h1>
+	<slot />
 </div>
 </Layout>
