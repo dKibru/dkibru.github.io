@@ -1,0 +1,25 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const posts = (await Astro.glob('./projects/*.{md,mdx}')).sort(
+	(a, b) => new Date(b.frontmatter.pubDate).valueOf() - new Date(a.frontmatter.pubDate).valueOf()
+);
+---
+
+<Layout title="Kibru Demeke - full stack developer">
+	<main>
+		
+
+
+
+		<ul  class="mt-8 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3	xl:grid-cols-3">
+			{posts.map(post => <li class="flex flex-col items-center bg-white border rounded-lg shadow-md md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+				<img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="https://flowbite.com/docs/images/blog/image-4.jpg" alt="">
+				<div class="flex flex-col justify-between p-4 leading-normal">
+					<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{post.frontmatter.title}</h5>
+					<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">{post.frontmatter.description}</p>
+				</div>
+			</li>)}
+		</ul>
+	</main>
+</Layout>

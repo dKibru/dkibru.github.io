@@ -9,14 +9,16 @@ export interface Props {
 		updatedDate?: string;
 		heroImage?: string;
 		socialImage?: string;
-		author?: string;
+		status?: string;
 	};
 }
 const {
-	content: { title, description, pubDate, updatedDate, heroImage, author, socialImage },
+	content: { title, description, pubDate, updatedDate, heroImage, status, socialImage },
 } = Astro.props;
 ---
 
 <Layout title={title}>
-
+<div>
+	<h1>dede</h1>
+</div>
 </Layout>
