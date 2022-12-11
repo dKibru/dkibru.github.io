@@ -3,9 +3,10 @@ export interface Props {
 	title: string;
 	body?: any;
 	items?: string[];
+	tasks?: string[];
 }
 
-const { items, title, body } = Astro.props;
+const { items, title, body, tasks } = Astro.props;
 ---
 
 <section class="mb-6">
@@ -15,6 +16,11 @@ const { items, title, body } = Astro.props;
 	
 	<div class="lg:inline-block lg:w-8/12 w-full">
 		{body}
+		{
+			tasks?.length > 0 && <ul>
+				{tasks.map(task => <ul>➡ {task}</ul>)}
+			</ul>
+		}
 		{
 			items?.map(item => <span class="rounded-xl bg-gray-300 px-3">{item}</span>)
 		}

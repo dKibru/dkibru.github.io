@@ -1,0 +1,136 @@
+Profile
+
+I am a full stack developer passionate about developing SAAS products. I am interested in cloud computing and web development.
+
+Work Experience
+
+1888EC startup studio
+December 2021 - Present
+Full Stack Developer
+
+- Develop and maintain multiple codebases using nest.js, react.js, aws lambda, and Wordpress plugins
+- Collaborate with cross-functional teams to deliver high-quality software
+- Contribute to software design and architecture decisions
+
+Information Network Security Agency
+August 2021 - December 2021
+Exploit Researcher
+
+- Conducted research on software vulnerabilities and exploits
+- Developed and tested proof-of-concept code to demonstrate vulnerabilities
+- Contributed to the development of security patches and fixes
+
+Mala Tech Solutions
+April 2018 - December 2021
+Cofounder / Lead Developer
+
+- Cofounded Hawassa-based startup
+- Served as chief developer
+- Developed a multitenant custom ERP software using laravel, vue.js, and inertia js
+
+Adama Science and Technology University
+February 2017 - March 2018
+Volunteer Full Stack Developer
+
+- Developed a staff evaluation system using laravel and vue.js
+- Assisted with the development of other internal software applications
+
+Skills
+
+- React.js
+- AWS Lambda
+- Wordpress plugins
+- Laravel
+
+Certifications
+
+- AWS Certified Solutions Architect - Associate
+- CompTIA A+ Certification
+- Certified Ethical Hacker (CEH)
+
+Education
+
+- B.S. in Computer Science, Adama Science and Technology University (2022)
+
+
+
+
+
+
+
+Profile
+
+Full stack developer with 3 years of experience building and maintaining SAAS products. Skilled in React.js, AWS Lambda, Wordpress plugins, and Laravel. Passionate about cloud computing and web development. Seeking a challenging position at a forward-thinking company where I can apply my skills and continue to learn and grow.
+
+Work Experience
+
+1888EC startup studio
+December 2021 - Present
+Full Stack Developer
+
+- Develop and maintain multiple codebases using nest.js, react.js, aws lambda, and Wordpress plugins
+- Collaborate with cross-functional teams to deliver high-quality software
+- Contribute to software design and architecture decisions
+- Developed a custom e-commerce platform using React.js and AWS Lambda, which increased sales by 30% in the first quarter
+- Implemented an automatic backup and recovery system using AWS S3 and Lambda, which reduced downtime and data loss
+- Improved the performance of a Wordpress plugin by optimizing the database queries and caching mechanisms
+
+Information Network Security Agency
+August 2021 - December 2021
+Exploit Researcher
+
+- Conducted research on software vulnerabilities and exploits
+- Developed and tested proof-of-concept code to demonstrate vulnerabilities
+- Contributed to the development of security patches and fixes
+- Discovered and reported a critical vulnerability in a widely-used open-source library, which was subsequently fixed in the next release
+- Developed a tool that automates the process of identifying and exploiting common vulnerabilities in web applications
+- Worked closely with the development team to ensure that all vulnerabilities were properly addressed and resolved
+
+Mala Tech Solutions
+April 2018 - December 2021
+Lead Developer
+
+- Cofounded Hawassa-based startup
+- Served as chief developer
+- Developed a multitenant custom ERP software for churches using laravel, vue.js, and inertia js
+- Built a scalable and secure multitenant architecture using Laravel, Vue.js, and Inertia.js, which allowed for efficient and cost-effective management of multiple clients
+- Implemented a custom billing system using Stripe and Laravel Cashier, which increased revenue by 20% in the first year
+- Developed a robust set of APIs and webhooks using Laravel, which enabled seamless integration with other church management systems
+
+Adama Science and Technology University
+February 2017 - March 2018
+Volunteer Full Stack Developer
+
+- Developed a staff evaluation system using laravel and vue.js
+- Assisted with the development of other internal software applications
+- Created a staff evaluation system that allowed managers to rate and review staff members based on their performance and skills
+
+Developed a user-friendly and intuitive interface using Vue.js, which made it easy for managers to use the system
+Implemented a secure authentication system using Laravel Passport, which ensured that only authorized users could access the system
+Technical Skills
+
+React.js
+AWS Lambda
+Wordpress plugins
+Laravel
+Vue.js
+Inertia.js
+MySQL
+AWS (EC2, S3, Lambda, etc.)
+Git
+HTML/CSS
+
+Professional Accomplishments
+
+- Awarded the "Best Developer" at Mala Tech Solutions for the years 2019 and 2020
+- Presented a paper on multitenant architecture at the International Conference on Cloud Computing in 2020
+- Developed a successful startup from scratch, which was acquired by 1888EC startup studio in 2021
+- Education
+
+B.S. in Computer Science, Adama Science and Technology University (2022)
+Completed various online courses on React.js, AWS, and Laravel, including the "Complete React Developer Course" on Udemy
+Personal Interests
+
+Enjoy hiking, traveling, and photography in my free time
+Love learning new technologies and staying up-to-date with the latest trends in the software industry
+Passionate about music and play the guitar in a local band

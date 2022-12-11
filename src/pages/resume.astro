@@ -7,11 +7,7 @@ import Layout from "../layouts/Layout.astro";
     <div class="grid grid-cols-5">
         <div class="col-span-4">
             <h2 class="my-2 text-lg font-bold">Profile</h2>
-            <p>
-                I am a full Stack developer passionate about developing SAAS
-                products.
-            </p>
-            <p>I am interested in cloud computing and web.</p>
+            <p>Full-stack developer with over four years of experience in developing and maintaining codebases using a range of technologies. Strong background in cloud computing and web development, with a particular interest in SAAS products. Experienced in working with startup companies and leading development teams.</p>
 
             <h2 class="my-2 text-lg font-bold">Experience</h2>
             <div class="mt-3">
@@ -30,7 +26,13 @@ import Layout from "../layouts/Layout.astro";
                 </section>
                 <ResumeDetail
                     title="Task:"
-                    body="Developing and maintaining multiple codebases using nest.js, react.js, aws lambda, and Wordpress plugins."
+                    tasks={[
+                        "Developed and maintained multiple codebases using technologies such as Nest.js, React.js, AWS Lambda, and WordPress plugins.",
+                        "Improved the performance and reliability of the codebase through regular testing and debugging.",
+                        "Collaborated with the rest of the development team to implement new features and address issues.",
+                        "Worked closely with the product and design teams to ensure that the code met the requirements and specifications of the project.",
+                        "Contributed to the overall success of the startup by developing high-quality, scalable, and reliable code."
+                    ]}
                 />
                 <ResumeDetail
                     title="Tools"
@@ -69,8 +71,13 @@ import Layout from "../layouts/Layout.astro";
                 </section>
                 <ResumeDetail
                     title="Task:"
-                    body={`Cofounded Hawassa based startup Served as chief developer Developed a multitenant custom ERP software for churches using laravel, vue.js,
-                        and inertia js https://church.et`}
+                    tasks={[
+                        " Co-founded Hawassa-based startup and served as chief developer.",
+                        "Developed a multitenant custom ERP software for churches using technologies such as Laravel, Vue.js, and Inertia JS.",
+                        "Managed a team of developers, providing guidance and support to ensure that the project was completed on time and within budget.",
+                        "Worked closely with the product and design teams to define the requirements and specifications of the software, and to ensure that the code met these requirements.",
+                        "Contributed to the success of the startup by developing a high-quality and reliable product that met the needs of the target market."
+                    ]}
                 />
 
 
@@ -89,11 +96,17 @@ import Layout from "../layouts/Layout.astro";
                 </section>
                 <ResumeDetail
                     title="Task:"
-                    body={`Developed a staff evaluation system using laravel and vue.js`}
+                    tasks={[
+                        "Developed a staff evaluation system using Laravel and Vue.js.",
+                        "Implemented new features and addressed bugs in the system to improve its functionality.",
+                        "Worked closely with the university staff to understand their needs and develop a system that met their requirements.",
+                        "Contributed to the success of the project by developing a system that was easy to use, reliable, and effective at evaluating staff performance.",
+                        "Gained valuable experience in working with Laravel and Vue.js, and developed my skills in full-stack development."
+                    ]}
                 />
             </div>
         </div>
-        <div class="bg-blue-300">
+        <div class="">
             <img src="/me.jpeg" />
             <h2>Kibru Demeke</h2>
         </div>

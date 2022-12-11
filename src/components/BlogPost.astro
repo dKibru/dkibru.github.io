@@ -18,7 +18,7 @@ const {
 ---
 
 <Layout title={title}>
-	<style global>
+	<style is:global>
 		#post p {
 				padding-bottom: 10px;
 				text-align: justify;
@@ -34,9 +34,11 @@ const {
 		}
 
 		</style>
+		<link rel="stylesheet"
+		href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js" is:inline></script>
 
 <div id="post">
-	<h1>dede</h1>
 	<slot />
 </div>
 </Layout>
